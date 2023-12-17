@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  min-height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+}
+header #gym {
+  width: 100%;
+  min-height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid rgb(240, 240, 240);
+}
+header #gym .gymmain {
+  width: 70%;
+  min-height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header #gym .gymmain span {
+  width: 80%;
+  padding: 7px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+nav {
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav .navbarcnt {
+  width: 100%;
+  height: 100%;
+}
+nav .navbarcnt .bloggerLogo {
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-weight: 400;
+}
+nav .navbarcnt .navbarBlogger {
+  align-items: center;
+  justify-content: center;
+}
+nav .navbarcnt .navbarBlogger .navbarBloggerUl {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 29px;
+  display: flex;
+  justify-content: center;
+  color: #222222;
+  width: 60%;
+}
+nav .navbarcnt .navbarBlogger .navbarBloggerUl li a {
+  color: #222;
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 0 20px;
+}
+nav .navbarcnt .navbarBlogger .navbarBloggerUl li a:hover {
+  color: #f6214b;
+}
+nav .navbarcnt .navbarBlogger .navbarBloggerUl .homelist {
+  font-weight: 500;
+}
+nav .navbarcnt .navbarBlogger .navbarBloggerUl .bloggerListLi .bloggerList {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+nav .navbarcnt .navbarBlogger .navbarBloggerUl .bloggerListLi .bloggerList i {
+  font-size: 12px;
+}
+nav .navbarcnt .navbarBlogger .navbarBloggerUl .bloggerListLi:hover .bloggerListDropdown {
+  display: block;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+}
+nav .navbarcnt .navbarBlogger .navbarBloggerUl .bloggerListLi .bloggerListDropdown {
+  display: none;
+}
+nav .navbarcnt .navbarBlogger .navbarBloggerUl .bloggerListLi .bloggerListDropdown ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+nav .navbarcnt .navbarBlogger .navbarBloggerUl .bloggerListLi .bloggerListDropdown ul li {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+  cursor: pointer;
+  transition: 0.3s ease;
+  color: #222;
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+nav .navbarcnt .navbarBlogger .navbarBloggerUl .bloggerListLi .bloggerListDropdown ul li:hover {
+  color: #f6214b;
+}
+
+#customers {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+#customers .myDiv {
+  margin-top: 1rem;
+  width: 250px;
+  height: auto;
+}
+#customers img {
+  width: 90%;
+}
+#customers h1 {
+  font-size: 24px;
+  font-weight: 600;
+  font-style: oblique;
+}
+#customers button {
+  width: 120px;
+  height: 40px;
+  border-radius: 23px;
+  background-color: #f6214b;
+  border: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+}
+#customers button:hover {
+  background-color: black;
+  color: white;
+}

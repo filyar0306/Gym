@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhO_CQlKuGrk4OfjryP7EFsCyrPcRBfhCKmEgx9c1ojpdN8L42_4IO43eKctJID9mxGZU&usqp=CAU);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+#myform{
+    width:60%;
+   
+    height: 630px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ border-radius: 20px;
+ 
+ button{
+    width: 100px;
+    height: 40px;
+    border-radius: 23px;
+    background-color: #f6214b;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    &:hover{
+        background-color: black;
+        color: white;
+    }
+ }
+ 
+  }
+
